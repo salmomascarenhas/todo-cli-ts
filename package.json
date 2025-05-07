@@ -1,0 +1,16 @@
+{
+  "name": "seminario-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start:dev": "ts-node --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Salmo Mascarenhas <salmo.cruz@gmail.com>",
+  "license": "ISC",
+  "description": "Sistema CLI para gerenciar tarefas utilizando TypeScript e Node.js"
+}
