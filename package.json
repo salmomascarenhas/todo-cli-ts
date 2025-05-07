@@ -1,16 +1,30 @@
 {
-  "name": "seminario-1",
+  "name": "todo-cli-ts",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "CLI de gerenciamento de tarefas em TypeScript • Clean Architecture • DDD",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmomascarenhas/todo-cli-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "cli",
+    "todo",
+    "clean-architecture",
+    "ddd"
+  ],
+  "author": "Salmo Mascarenhas <salmo.cruz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "ts-node --transpile-only src/index.ts ",
+    "build": "tsc"
+  },
   "devDependencies": {
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
-  },
-  "scripts": {
-    "start:dev": "ts-node --transpile-only src/index.ts"
-  },
-  "keywords": [],
-  "author": "Salmo Mascarenhas <salmo.cruz@gmail.com>",
-  "license": "ISC",
-  "description": "Sistema CLI para gerenciar tarefas utilizando TypeScript e Node.js"
+  }
 }
